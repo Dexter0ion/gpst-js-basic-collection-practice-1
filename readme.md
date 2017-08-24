@@ -1,5 +1,7 @@
 # Javascript 集合操作基础练习
 
+!()[https://github.com/Dexter0ion/gpst-js-basic-collection-practice-1/blob/master/find.PNG?raw=true]
+!()[https://github.com/Dexter0ion/gpst-js-basic-collection-practice-1/blob/master/includes.PNG?raw=true]
 - 1.两个集合比较筛选 - 其中包含4个小练习
 - 2.单个集合内各种元素统计 - 其中包含3个小练习
 - 3.两个集合比较+筛选+统计 - 其中包含4个小练习
