@@ -1,12 +1,22 @@
 'use strict';
 
 function find(collection, ch) {
+
+    //用find与some方法改写for循环 匹配后返回item
+    //先some方法查找是否有相同元素 若有用find方法匹配
+    
+    if(collection.some(x=>x.name===ch)){
+        var item = collection.find(x=>x.name===ch);
+        return item;
+    }
+
+    /*
     for (let item of collection) {
         if (item.name === ch) {
             return item;
         }
     }
-
+    */
     return null;
 }
 

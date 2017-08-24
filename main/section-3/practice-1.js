@@ -1,12 +1,16 @@
 'use strict';
 
 function includes(collection, ch) {
+    if(collection.includes(ch)){
+        return true;
+    }
+    /*
     for (let item of collection) {
         if (item === ch) {
             return true;
         }
     }
-
+*/
     return false;
 }
 
